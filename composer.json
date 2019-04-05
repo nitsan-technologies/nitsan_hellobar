@@ -1,0 +1,32 @@
+{
+  "name": "nitsan/nitsan-hellobar",
+  "type": "typo3-cms-extension",
+  "description": "An API Integration for HelloBar.com - One of the most popular site! Integrate hellobar panel(s) with simple configuration from TYPO3 Backend & Displaying it at global to your TYPO3 site!",
+  "homepage": "https://extensions.typo3.org/extension/nitsan_hellobar/",
+  "license": "GPL-2.0+",
+  "keywords": [
+    "TYPO3 CMS",
+    "Hellobar",
+    "Nitsan"
+  ],
+  "support": {
+    "issues": "https://github.com/nitsan-technologies/nitsan_hellobar/issues"
+  },
+  "require": {
+    "typo3/cms-core": ">=6.0.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "Nitsanhellobar\\NitsanHellobar\\": "Classes/"
+    }
+  },
+  "replace": {
+      "nitsan_hellobar": "self.version",
+      "nitsan/nitsan-hellobar": "self.version"
+  },
+  "extra": {
+      "typo3/cms": {
+          "extension-key": "nitsan_hellobar"
+      }
+  }
+}
