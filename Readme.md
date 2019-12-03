@@ -1,3 +1,4 @@
-# TYPO3 Extension "nitsan_hellobar"
+# nitsan_hellobar
 
-An API Integration for HelloBar.com, Checkout more at https://extensions.typo3.org/extension/nitsan_hellobar
+- FREE version: You can download FREE version with basic-features at https://extensions.typo3.org/extension/nitsan_hellobar/
+- PRO version: You can download PRO version with more-features & free-support at https://t3terminal.com/tyop3-hellobar-api-plugin-free/
