@@ -38,7 +38,7 @@ class Hellobar extends \TYPO3\CMS\Extbase\DomainObject\AbstractEntity
      * @var string
      */
     protected $test = '';
-    
+
     /**
      * Returns the test
      *
@@ -48,7 +48,7 @@ class Hellobar extends \TYPO3\CMS\Extbase\DomainObject\AbstractEntity
     {
         return $this->test;
     }
-    
+
     /**
      * Sets the test
      *
@@ -59,5 +59,4 @@ class Hellobar extends \TYPO3\CMS\Extbase\DomainObject\AbstractEntity
     {
         $this->test = $test;
     }
-
 }

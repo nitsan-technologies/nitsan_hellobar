@@ -45,8 +45,8 @@ class HellobarController extends \TYPO3\CMS\Extbase\Mvc\Controller\ActionControl
      */
     protected $pageRenderer;
 
-    protected $hellobarRepository = NULL;
-    
+    protected $hellobarRepository = null;
+
     /**
      * action list
      *
@@ -54,8 +54,7 @@ class HellobarController extends \TYPO3\CMS\Extbase\Mvc\Controller\ActionControl
      */
     public function listAction()
     {
-       // $GLOBALS['TSFE']->getPageRenderer()->addHeaderData('<script src="//my.hellobar.com/28f57266d1878bafbcb18d27bd9137332ba1d09e.js" type="text/javascript" charset="utf-8" async="async"></script>');
+        // $GLOBALS['TSFE']->getPageRenderer()->addHeaderData('<script src="//my.hellobar.com/28f57266d1878bafbcb18d27bd9137332ba1d09e.js" type="text/javascript" charset="utf-8" async="async"></script>');
         //$GLOBALS['TSFE']->getPageRenderer()->addFooterData('<script src="//my.hellobar.com/28f57266d1878bafbcb18d27bd9137332ba1d09e.js" type="text/javascript" charset="utf-8" async="async"></script>');
     }
-
 }
