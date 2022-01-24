@@ -21,7 +21,7 @@
     }
   },
   "replace": {
-      "nitsan/nitsan-hellobar": "self.version"
+      "typo3-ter/nitsan-hellobar": "self.version"
   },
   "config": {
     "vendor-dir": ".Build/vendor/",
