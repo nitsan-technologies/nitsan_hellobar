@@ -1,21 +1,33 @@
-
-plugin.tx_nitsanhellobar {	
+plugin.tx_nitsanhellobar {
 	persistence {
 		addscript = {$plugin.tx_nitsanhellobar.persistence.addscript}
 		position = {$plugin.tx_nitsanhellobar.persistence.position}
 	}
 }
 
-page.headerData.995 = TEXT
-page.headerData.995.insertData = 1
-page.headerData.995.value = {$plugin.tx_nitsanhellobar.persistence.addscript}
-page.headerData.995.if.value = Header
-page.headerData.995.if.equals = {$plugin.tx_nitsanhellobar.persistence.position}
-page.headerData.995.if.equals.insertData = 1
-
-page.footerData.995 = TEXT
-page.footerData.995.insertData = 1
-page.footerData.995.value = {$plugin.tx_nitsanhellobar.persistence.addscript}
-page.footerData.995.if.value = Footer
-page.footerData.995.if.equals = {$plugin.tx_nitsanhellobar.persistence.position}
-page.footerData.995.if.equals.insertData = 1
+page {
+	headerData {
+		995 = TEXT
+		995 {
+			insertData = 1
+			value = {$plugin.tx_nitsanhellobar.persistence.addscript}
+			if {
+				value = Header
+				equals = {$plugin.tx_nitsanhellobar.persistence.position}
+				equals.insertData = 1
+			}
+		}
+	}
+	footerData {
+		995 = TEXT
+		995 {
+			insertData = 1
+			value = {$plugin.tx_nitsanhellobar.persistence.addscript}
+			if {
+				value = Footer
+				equals = {$plugin.tx_nitsanhellobar.persistence.position}
+				equals.insertData = 1
+			}
+		}
+	}
+}

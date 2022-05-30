@@ -6,9 +6,6 @@
 			<trans-unit id="tx_nitsanhellobar_domain_model_hellobar">
 				<source>Hellobar.com</source>
 			</trans-unit>
-			<trans-unit id="tx_nitsanhellobar_domain_model_hellobar.test">
-				<source>Test</source>
-			</trans-unit>
 		</body>
 	</file>
 </xliff>
