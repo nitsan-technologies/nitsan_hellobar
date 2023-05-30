@@ -1,5 +1,4 @@
 <?php
-if (!defined('TYPO3_MODE')) {
-    die('Access denied.');
-}
+defined('TYPO3_MODE') || defined('TYPO3') or die();
+
 $_EXTKEY = 'nitsan_hellobar';
