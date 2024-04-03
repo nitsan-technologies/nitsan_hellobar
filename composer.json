@@ -1,8 +1,8 @@
 {
   "name": "nitsan/nitsan-hellobar",
   "type": "typo3-cms-extension",
-  "description": "An API Integration for HelloBar.com - One of the most popular site! Integrate hellobar panel(s) with simple configuration from TYPO3 Backend & Displaying it at global to your TYPO3 site! Live-Demo: https://demo.t3planet.com/t3t-extensions/ You can download PRO version for more-features & free-support at https://t3planet.com/tyop3-hellobar-api-plugin-free/",
-  "homepage": "https://extensions.typo3.org/extension/nitsan_hellobar/",
+  "description": "The HelloBar TYPO3 Extension is a valuable tool for configuring and designing messages on your website. It provides tools and services to schedule messages for your guests exactly when you want them to see the messages. With Hello Bar, you can attract guests to your website and improve user engagement. *** Live-Demo: https://demo.t3planet.com/t3-extensions/hellobar *** Documentation & Free Support: https://t3planet.com/typo3-hellobar-extension.",
+  "homepage": "https://demo.t3planet.com/t3-extensions/hellobar",
   "license": "GPL-2.0+",
   "keywords": [
     "TYPO3 CMS",
@@ -13,7 +13,7 @@
     "issues": "https://github.com/nitsan-technologies/nitsan_hellobar/issues"
   },
   "require": {
-     "typo3/cms-core": "^6 || ^7 || ^8  || ^9 || ^10  || ^11 || ^12"
+    "typo3/cms-core": "^6 || ^7 || ^8  || ^9 || ^10  || ^11 || ^12"
   },
   "autoload": {
     "psr-4": {
@@ -21,7 +21,7 @@
     }
   },
   "replace": {
-      "typo3-ter/nitsan-hellobar": "self.version"
+    "typo3-ter/nitsan-hellobar": "self.version"
   },
   "config": {
     "vendor-dir": ".Build/vendor/",
@@ -29,9 +29,9 @@
   },
   "extra": {
     "typo3/cms": {
-        "cms-package-dir": "{$vendor-dir}/typo3/cms",
-        "web-dir": ".Build/public",
-        "extension-key": "nitsan_hellobar"
+      "cms-package-dir": "{$vendor-dir}/typo3/cms",
+      "web-dir": ".Build/public",
+      "extension-key": "nitsan_hellobar"
     }
   }
 }

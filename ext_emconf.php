@@ -1,18 +1,20 @@
 <?php
 
 $EM_CONF[$_EXTKEY] = [
-    'title' => '[NITSAN] HelloBar.com Plugin',
-    'description' => 'An API Integration for HelloBar.com - One of the most popular site! Integrate hellobar panel(s) with simple configuration from TYPO3 Backend & Displaying it at global to your TYPO3 site! Live-Demo: https://demo.t3terminal.com/t3t-extensions/ You can download PRO version for more-features & free-support at https://t3planet.com/tyop3-hellobar-api-plugin-free/',
+    'title' => 'HelloBar',
+    'description' => 'The HelloBar TYPO3 Extension is a valuable tool for configuring and designing messages on your website. It provides tools and services to schedule messages for your guests exactly when you want them to see the messages. With Hello Bar, you can attract guests to your website and improve user engagement.
+    
+    *** Live-Demo: https://demo.t3planet.com/t3-extensions/hellobar *** Documentation & Free Support: https://t3planet.com/typo3-hellobar-extension',
     'category' => 'plugin',
-    'author' => 'Team NITSAN',
+    'author' => 'T3: Nilesh Malankiya, T3: Himanshu Ramavat, QA: Krishna Dhapa',
     'author_email' => 'sanjay@nitsan.in',
-    'author_company' => 'NITSAN Technologies Pvt Ltd',
+    'author_company' => 'T3Planet // NITSAN',
     'state' => 'stable',
     'internal' => '',
     'uploadfolder' => '0',
     'createDirs' => '',
     'clearCacheOnLoad' => 0,
-    'version' => '6.0.0',
+    'version' => '6.0.1',
     'constraints' => [
         'depends' => [
             'typo3' => '6.0.0-12.4.99',
