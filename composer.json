@@ -1,7 +1,7 @@
 {
   "name": "nitsan/nitsan-hellobar",
   "type": "typo3-cms-extension",
-  "description": "The HelloBar TYPO3 Extension is a valuable tool for configuring and designing messages on your website. It provides tools and services to schedule messages for your guests exactly when you want them to see the messages. With Hello Bar, you can attract guests to your website and improve user engagement. *** Live-Demo: https://demo.t3planet.com/t3-extensions/hellobar *** Documentation & Free Support: https://t3planet.com/typo3-hellobar-extension.",
+  "description": "The HelloBar TYPO3 Extension is a valuable tool for configuring and designing messages on your website. It provides tools and services to schedule messages for your guests exactly when you want them to see the messages. With Hello Bar, you can attract guests to your website and improve user engagement.",
   "homepage": "https://demo.t3planet.com/t3-extensions/hellobar",
   "license": "GPL-2.0+",
   "keywords": [
