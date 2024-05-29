@@ -1,6 +1,6 @@
 <?php
 
-$EM_CONF[$_EXTKEY] = [
+$EM_CONF['nitsan_hellobar'] = [
     'title' => 'HelloBar',
     'description' => 'The HelloBar TYPO3 Extension is a valuable tool for configuring and designing messages on your website. It provides tools and services to schedule messages for your guests exactly when you want them to see the messages. With Hello Bar, you can attract guests to your website and improve user engagement.
     
@@ -14,7 +14,7 @@ $EM_CONF[$_EXTKEY] = [
     'uploadfolder' => '0',
     'createDirs' => '',
     'clearCacheOnLoad' => 0,
-    'version' => '6.0.1',
+    'version' => '6.1.0',
     'constraints' => [
         'depends' => [
             'typo3' => '6.0.0-12.4.99',
