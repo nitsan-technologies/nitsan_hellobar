@@ -17,7 +17,7 @@ $EM_CONF['nitsan_hellobar'] = [
     'version' => '6.1.0',
     'constraints' => [
         'depends' => [
-            'typo3' => '6.0.0-12.4.99',
+            'typo3' => '12.0.0-13.9.99',
         ],
         'conflicts' => [
         ],
