@@ -1,0 +1,28 @@
+categories:
+  nitsan_hellobar:
+    label: Hello Bar
+
+  nitsan_hellobar.persistence:
+    label: Persistence Settings
+    parent: nitsan_hellobar
+
+settings:
+
+  ##################################################
+  # Persistence Settings
+  ##################################################
+
+  nitsan_hellobar.persistence.addscript:
+    label: 'Your Hellobar Code: Fetch your Hellobar code from www.hellobar.com and paste it below.'
+    category: nitsan_hellobar.persistence
+    type: string
+    default: ''
+
+  nitsan_hellobar.persistence.position:
+    label: "Load Hellobar in your site's : Header (before </head>) : Footer (before </body>)"
+    category: nitsan_hellobar.persistence
+    type: string
+    default: 'header'
+    enum:
+      header: 'Header'
+      footer: 'Footer'
