@@ -22,7 +22,7 @@ settings:
     label: "Load Hellobar in your site's : Header (before </head>) : Footer (before </body>)"
     category: nitsan_hellobar.persistence
     type: string
-    default: 'header'
+    default: 'Header'
     enum:
-      header: 'Header'
-      footer: 'Footer'
+      Header: 'Header'
+      Footer: 'Footer'
