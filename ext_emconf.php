@@ -13,10 +13,10 @@ $EM_CONF['nitsan_hellobar'] = [
     'uploadfolder' => '0',
     'createDirs' => '',
     'clearCacheOnLoad' => 0,
-    'version' => '7.0.1',
+    'version' => '8.0.0',
     'constraints' => [
         'depends' => [
-            'typo3' => '6.0.0-13.9.99',
+            'typo3' => '6.0.0-14.9.99',
         ],
         'conflicts' => [
         ],

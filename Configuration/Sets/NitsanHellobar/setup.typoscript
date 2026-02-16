@@ -1,0 +1,36 @@
+@import 'EXT:nitsan_hellobar/Configuration/TypoScript/setup.typoscript'
+plugin {
+    tx_nitsanhellobar {
+        persistence {
+            addscript = {$nitsan_hellobar.persistence.addscript}
+            position = {$nitsan_hellobar.persistence.position}
+        }
+    }
+}
+
+page {
+    headerData {
+        995 = TEXT
+        995 {
+            insertData = 1
+            value = {$nitsan_hellobar.persistence.addscript}
+            if {
+                value = Header
+                equals = {$nitsan_hellobar.persistence.position}
+                equals.insertData = 1
+            }
+        }
+    }
+    footerData {
+        995 = TEXT
+        995 {
+            insertData = 1
+            value = {$nitsan_hellobar.persistence.addscript}
+            if {
+                value = Footer
+                equals = {$nitsan_hellobar.persistence.position}
+                equals.insertData = 1
+            }
+        }
+    }
+}
